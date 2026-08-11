@@ -1,0 +1,20 @@
+[project]
+name = "sh-byoc-utility"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "sentinelhub>=3.11.5,<4",
+    "boto3>=1.43.68",
+    "botocore>=1.43.68",
+    "requests>=2.34.2",
+    "requests-oauthlib>=2.0.0",
+    "oauthlib>=3.3.1",
+    "pyproj>=3.7.2",
+    "ipykernel>=7.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.6",
+]
